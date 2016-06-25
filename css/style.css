@@ -1,0 +1,35 @@
+/** Importer la police Umberto **/
+@font-face {
+	font-family: umberto;
+    src: url('../fonts/umberto.ttf');
+}
+*{
+		margin: 0;
+		padding: 0;
+}
+/** Style appliqu� sur la div contenant le canvas **/
+#divCanvas {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	background-color: #61B4CF; /* Un magnifique ciel bleu */
+	overflow: hidden;
+}
+
+/** Footer **/
+#divFooter {
+	width: 800px;
+	margin:auto;
+}
+
+/** Les instructions **/
+#instructions {
+	float: left;
+}
+
+/** Les cr�dits **/
+#credits {
+	float: right;
+}
